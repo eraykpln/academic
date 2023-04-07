@@ -148,7 +148,7 @@ h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 
 #header.header-scrolled,
@@ -175,7 +175,10 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 35px;
+  margin-bottom: 10 px;
+  padding-bottom: 10  px;
+  scale: 1.4    ;
 }
 
 /*--------------------------------------------------------------
@@ -559,6 +562,7 @@ h6 {
       opacity: 0.8;
   }
 }
+
 .mySlides-box{
   height: 60vh;
   width: 50vh;
@@ -731,7 +735,9 @@ section {
   padding-bottom: 0px;
 
 }
-
+.swiper {
+  overflow: visible;
+}
 .clients .swiper-slide img {
   opacity: 0.5;
   transition: 0.3s;
@@ -742,7 +748,15 @@ section {
   filter: none;
   opacity: 1;
 }
+ .check-box{
 
+  display: inline-block;
+
+ }
+ .slide2{
+  margin-left: 75px;
+  margin-right:  75px;
+ }
 .clients .swiper-pagination {
   margin-top: 20px;
   position: relative;
@@ -1305,7 +1319,9 @@ height: 30rem;
   width: 100%;
   background: #fff;
 }
-
+.logo .img{
+  margin-left: 10px;
+}
 .contact .info i {
   font-size: 20px;
   background: #ffc451;
@@ -1775,14 +1791,33 @@ padding: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
-	width: 350px;
+	width: 320px;
 	height: 350px;
   background: #fff;
 	border-radius: 20px;
 	box-shadow: 0 35px 80px rgba(0,0,0,0.15);
 	transition: 0.5s;
-   padding-left: 6%;
+  
    --clr:#ffc451;
+  
+}
+@media screen and (max-width: 600px){
+  .container .card 
+{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 320px;
+	height: 350px;
+  background: #fff;
+	border-radius: 20px;
+	box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+	transition: 0.5s;
+  margin-right: 30px;
+   --clr:#ffc451;
+  
+}
   
 }
 .container .card:hover 
@@ -1880,10 +1915,10 @@ padding: 10px;
  
 .container .swiper-slide
 {
-  margin-right: 75px;
-  margin-left: 75px;
+  display: inline-block;
   margin-bottom: 4%;
 }
+
  
 
 
