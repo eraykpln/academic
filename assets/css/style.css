@@ -757,6 +757,16 @@ section {
   margin-left: 75px;
   margin-right:  75px;
  }
+ @media screen and (max-width: 600px) {
+  .slide2{
+    margin-left: 10px;
+    margin-right:  10px;
+    margin-bottom: 25px ;
+   }
+   .swiper-pagination{
+      margin-top: 20px;
+   }
+}
 .clients .swiper-pagination {
   margin-top: 20px;
   position: relative;
