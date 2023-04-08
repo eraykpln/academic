@@ -1972,7 +1972,7 @@ padding: 10px;
 .container .a2:hover
 {
 	background-position-x: 100%;
-	transform: translateY(-15px);
+	scale: 1.1;
 }
 .container .a2:after
 {
@@ -2001,7 +2001,7 @@ padding: 10px;
 }
 .container .a2:hover:before
 {
-	transform: scale(1);
+	transform: scale(1.2);
 	bottom: -15px;
 }
 .about-img{
