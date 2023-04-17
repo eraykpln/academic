@@ -14,6 +14,8 @@
     }
   }
 
+
+          
   /**
    * Easy event listener function
    */
@@ -182,11 +184,11 @@
       },
       750: {
         slidesPerView: 2,
-        spaceBetween: 60
+        spaceBetween: 0
       },
       992: {
         slidesPerView: 3,
-        spaceBetween: 80
+        spaceBetween: 0
       },
       1200: {
         slidesPerView: 4,
@@ -213,16 +215,16 @@
         spaceBetween: 0
       },
       750: {
-        slidesPerView: 2,
-        spaceBetween: 60
+        slidesPerView: 1,
+        spaceBetween: 0
       },
       992: {
-        slidesPerView: 3,
-        spaceBetween: 80
+        slidesPerView: 1,
+        spaceBetween: 0
       },
       1200: {
-        slidesPerView: 4,
-        spaceBetween: 90
+        slidesPerView: 1,
+        spaceBetween: 0
       }
     }
   });

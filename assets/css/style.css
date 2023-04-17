@@ -1892,6 +1892,7 @@ padding: 10px;
 }
 .container .card .content h2 
 {
+  overflow: visible;
 	font-size: 1.5em;
 	font-weight: 700;
 	color: var(--clr);
