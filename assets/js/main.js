@@ -223,7 +223,7 @@
         spaceBetween: 0
       },
       1200: {
-        slidesPerView: 1,
+        slidesPerView: 4,
         spaceBetween: 0
       }
     }
