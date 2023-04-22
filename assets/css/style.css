@@ -562,6 +562,15 @@ h6 {
       opacity: 0.8;
   }
 }
+.row-hero{
+  opacity: 1;
+}
+@media screen and (max-width: 992px) {
+  .hero-row{
+   size: 0px;
+   opacity: 0;
+  }
+}
 
 .mySlides-box{
   height: 60vh;
